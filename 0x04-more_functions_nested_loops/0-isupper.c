@@ -1,4 +1,5 @@
-include "main.h"
+#include "main.h"
+#include <stdio.h>
 /**
  * _isupper - determines if c is uppercase
  *
@@ -8,7 +9,6 @@ include "main.h"
  */
 int _isupper(int c)
 {
-	int = c
 	if (c >= 65 && c  <= 90)
 	{
 		return (1);
